@@ -95,7 +95,8 @@ input:focus {outline: none;}
 /*********** footer-wrapper ***********/
 .footer-wrapper {text-align: center; color: #555;}
 .footer-wrapper .sns-wrap {font-size: 1.25em; margin-bottom: 1em;}
-
+.footer-wrapper .sns-wrap .sns:hover { opacity: .6;}
+.footer-wrapper .copyright .line { text-decoration: underline;}
 
 /*********** Responsive ***********/
 @media screen and (max-width: 1199px) {
