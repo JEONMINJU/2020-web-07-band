@@ -28,7 +28,7 @@ function onBannerInterval(){
 /********* 카카오 지도 **********/
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
 	mapOption = { 
-			center: new kakao.maps.LatLng(37.498762, 127.026782), // 지도의 중심좌표(지도 검색하면 나옴)
+			center: new kakao.maps.LatLng(37.498762, 127.026782), // 지도의 중심좌표
 			level: 3 // 지도의 확대 레벨
 	};
 
@@ -53,3 +53,5 @@ function setCenter() {
 // 마커가 지도 위에 표시되도록 설정합니다
 marker.setMap(map);
 map.setZoomable(false); 
+
+new WOW({ offset: 150 }).init();
